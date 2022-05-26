@@ -1,0 +1,41 @@
+
+* {
+  margin : 0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  font-family:sans-serif;
+}
+
+main{
+  min-height:100vh;
+}
+.search-box{
+  width: 100%;
+  height: 0 0 75px;
+}
+.search-box .search-bar{
+  display:block;
+  width:500px;
+  padding: 15px;
+  appearance: none;
+  background:none;
+  border:solid;
+  outline:visible;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0px opx 16px 16px;
+ 
+}
+.location-box .location{
+  box-shadow: rgba(255, 255, 255, 0.5);
+  border: saddlebrown; 
+  background-color: rgb(51, 130, 177);
+  width: 200px;
+  color: white;
+}
+.app .image{
+  width: 100%;
+  background: none;
+   position: fixed;
+}
